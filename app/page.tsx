@@ -81,6 +81,17 @@ const images = [
     live: "https://earnest-semifreddo-9217f3.netlify.app",
     github: "https://github.com/HARSH-FOUJDAR/Job-portel-Mern-Backend-",
   },
+    {
+    img: "https://www.scriptcase.net/lp/organic/en/login-system-php/login-system-php.png",
+    title: " Authentication Authorization System",
+    desc: "A job portal web application that allows users to search for jobs, view job details, and apply for positions through a clean and responsive interface.",
+    technologies: [
+      "PHP, JavaScript, jQuery, AJAX, MySQL, XAMPP, HTML5, CSS3, Bootstrap"
+    ],
+    skills: ["API Integration", "Search Functionality", "Data Rendering"],
+    live: "https://guvitask-0qz7.onrender.com/",
+    github: "https://github.com/HARSH-FOUJDAR/GuviTask",
+  },
   {
     img: "https://kanbanboard.co.uk/public/storage/uploads/page/1724051548_1724051218_kanbanboards.png",
     title: "Kanban Board Task Manager",
@@ -90,6 +101,8 @@ const images = [
     live: "https://playful-croissant-4d9c1b.netlify.app/",
     github: "https://github.com/HARSH-FOUJDAR/Task-Meneger-task",
   },
+
+  
 ];
 
 const certifications = [
@@ -209,6 +222,10 @@ export default function Page() {
                   name: "TypeScript",
                   src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
                 },
+                     {
+                  name: "PHP",
+                  src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrcCx3ze5-0zzHpmbikA9lVtTYxJEmaeCEUf6YGOSlug&s",
+                },
                 {
                   name: "React",
                   src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
@@ -317,7 +334,7 @@ export default function Page() {
           id="about"
           className="min-h-screen bg-gradient-to-b from-white via-gray-50 to-gray-100 dark:from-black dark:via-gray-900 dark:to-black text-gray-800 dark:text-gray-200 overflow-x-hidden pt-28"
         >
-          <section className="container mx-auto px-6 py-12 lg:py-20">
+          <section className="container mx-auto px-6 py-12 lg:py-20 flex items-center flex-col ">
             <div className="flex flex-col lg:flex-row items-center justify-center gap-12 ">
               {/* 🔹 Left Content: Info */}
               <motion.div
@@ -326,7 +343,7 @@ export default function Page() {
                 transition={{ duration: 0.8 }}
                 className="flex-1 text-center lg:text-left"
               >
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-100 dark:bg-orange-900/30 text-[#d1701f] text-sm font-medium mb-6">
+                <div className="inline-flex  items-center gap-2 px-3 py-1 rounded-full bg-orange-100 dark:bg-orange-900/30 text-[#d1701f] text-sm font-medium mb-6 ">
                   <Terminal size={16} />
                   <span>Available for Hire</span>
                 </div>
@@ -349,9 +366,9 @@ export default function Page() {
                   <motion.a
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    href="https://drive.google.com/file/d/1Km5aaskXsTcCQ-g3PYeOYYABakBGzCzp/view?usp=sharing"
+                    href="https://drive.google.com/file/d/18hyuiTwgQpEH_0ONFCCajIYjnCW4w8Xl/view?usp=sharing"
                     target="_blank"
-                    className="flex items-center gap-2 bg-[#d1701f] text-white font-bold px-8 py-4 rounded-xl shadow-lg shadow-orange-500/20 hover:bg-[#b8621b] transition-all"
+                    className="flex  mx-auto  items-center gap-2 bg-[#d1701f] text-white font-bold px-8 py-4 rounded-xl shadow-lg shadow-orange-500/20 hover:bg-[#b8621b] transition-all"
                   >
                     <Download size={20} className="size-6 animate-bounce " />
                     Download CV
@@ -362,7 +379,7 @@ export default function Page() {
               {/*  Right Content: Profile Image */}
               <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
+                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8 }}
                 className="relative"
               >
@@ -388,8 +405,13 @@ export default function Page() {
                 using
                 <span className="text-[#d1701f] font-medium">
                   {" "}
-                  HTML, CSS, JavaScript, React, and Node.js , Express.Js ,
-                  MongoDB, MySql
+                Java, PHP, JavaScript (ES6+), SQL, HTML5, CSS3
+                Frontend: React.js, Redux Toolkit, Tailwind CSS
+               Backend: Node.js, Express.js, REST APIs, JWT
+               Database: MongoDB, MySQL, NoSQL, Microsoft SQL Server, Mongoose
+              Core CS: DSA, OOP, DBMS, OS, CN
+             Tools: Git, GitHub, AWS, Azure, Analytical Skills, Postman, Cloudinary, Vercel, Render, VS Code
+             Concepts: REST APIs, RBAC, Authentication, System Design Basics
                 </span>
                 . I love solving problems and continuously improving my coding
                 and communication skills. My goal is to become a skilled
